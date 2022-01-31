@@ -1,3 +1,3 @@
-# For OnPoint
+# For Onpoint
 
-[DEMO](https://webdirection-dev.github.io/challenge-for-onpoint-react/)
+[DEMO](https://webdirection-dev.github.io/challenge-from-onpoint-react/)
