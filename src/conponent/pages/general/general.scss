@@ -1,0 +1,55 @@
+@import "../../../sass";
+
+.fa-long-arrow-alt-right {
+    position: absolute;
+    color: white;
+    left: 31px;
+}
+
+.general {
+    @include section();
+    &__content {
+        position: relative;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        margin-left: 70px;
+        font-family: $mainFontLight;
+        font-size: 107px;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        &-hi {position: absolute;
+            top: 170px;
+            font-size: 28px;
+            letter-spacing: 1px;
+        }
+        &-bold {
+            font-family: $contentFontBold;
+            letter-spacing: 0;
+        }
+    }
+    &__btn {
+        @include btn();
+        position: absolute;
+        left: 530px;
+        top: 450px;
+        width: 287px;
+        height: 80px;
+        background-color: #ff6a9f;
+        border-radius: 40px;
+        font-family: $btnFont;
+        font-size: 25px;
+        line-height: 3;
+        letter-spacing: 1.67px;
+        &-content {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+        &-img {
+            width: 55px;
+            margin: 0 15px;
+        }
+    }
+}

@@ -1,3 +1,5 @@
+import './page2.scss'
+
 const Page2 = (props) => {
     const {
         handleTouchStart = Function.prototype,
@@ -6,7 +8,7 @@ const Page2 = (props) => {
 
     return(
         <div
-            className="yellow main__slide"
+            className="txt-page main__slide"
             onTouchStart={event => handleTouchStart(event)}
             onTouchMove={event => handleTouchMove(event)}
         >

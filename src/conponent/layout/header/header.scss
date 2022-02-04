@@ -2,10 +2,22 @@
 
 .header {
     position: absolute;
-    top: 30px;
-    left: 30px;
-    width: 300px;
-    height: 100px;
-    background: $backgroundOrange;
+    top: 22px;
+    left: 70px;
+    font-family: $contentFont;
     z-index: 10;
+    &__icon {
+        font-size: 25px;
+        cursor: pointer;
+    }
+    &__pipe {
+        font-weight: 100;
+        font-size: 28px;
+        margin: 0 25px;
+    }
+    &__logo {
+        font-weight: 300;
+        font-size: 23px;
+        letter-spacing: 1.5px;
+    }
 }

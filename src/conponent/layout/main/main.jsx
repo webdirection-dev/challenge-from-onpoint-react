@@ -1,5 +1,6 @@
 import {useEffect, useState} from "react";
 import './main.scss'
+import Header from "../header";
 import Pages from "../../pages";
 
 
@@ -34,6 +35,7 @@ const Main = () => {
         <View
             isSlides={isSlides}
             isOffset={isOffset}
+            setOffset={setOffset}
             onLeft={onLeft}
             onRight={onRight}
         />
@@ -42,9 +44,12 @@ const Main = () => {
 
 export default Main
 
-const View = ({isSlides, isOffset, onLeft, onRight}) => {
+const View = ({isSlides, isOffset, setOffset, onLeft, onRight}) => {
     return(
         <div className='main'>
+            <Header
+                setOffset={setOffset}
+            />
 
             <Pages
                 isSlides={isSlides}

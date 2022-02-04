@@ -10,8 +10,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -36,6 +36,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/sass" />
       <recent name="$PROJECT_DIR$/src/conponent/app" />
     </key>
   </component>
@@ -70,6 +72,8 @@
       <workItem from="1643657199943" duration="28000" />
       <workItem from="1643657297925" duration="96000" />
       <workItem from="1643709550542" duration="23635000" />
+      <workItem from="1643986432984" duration="805000" />
+      <workItem from="1643987291334" duration="24951000" />
     </task>
     <servers />
   </component>

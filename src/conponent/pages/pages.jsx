@@ -46,13 +46,14 @@ const Pages = (props) => {
             isOffset={isOffset}
             handleTouchStart={handleTouchStart}
             handleTouchMove={handleTouchMove}
+            onRight={onRight}
         />
     )
 }
 
 export default Pages
 
-const View = ({isSlides, isOffset, handleTouchStart, handleTouchMove}) => {
+const View = ({isSlides, isOffset, handleTouchStart, handleTouchMove, onRight}) => {
     return(
         <div
             className="main__slider-inner"
@@ -67,6 +68,7 @@ const View = ({isSlides, isOffset, handleTouchStart, handleTouchMove}) => {
             <General
                 handleTouchStart={handleTouchStart}
                 handleTouchMove={handleTouchMove}
+                onRight={onRight}
             />
 
             <Page2

@@ -1,3 +1,10 @@
+// PAGES
+@mixin section() {
+    flex-shrink: 0;
+    width: 100vw;
+    height: 100%;
+}
+
 // FONTS
 @mixin h1($color: $mainColor) {
     color: $color;
@@ -84,16 +91,6 @@
     color: $subTitleCard;
 }
 
-// SECTIONS
-@mixin section() {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    //@media ($tablet) {
-    //    flex-direction: row;
-    //}
-}
-
 // BTNS
 @mixin btn() {
     cursor: pointer;
@@ -115,39 +112,3 @@
     object-fit: fill;
     object-position: top;
 }
-
-// Crds
-//@mixin cards() {
-//    position: relative;
-//    width: auto;
-//    background-color: #222222;
-//    overflow: hidden;
-//    box-sizing: border-box;
-//    padding-left: 1rem;
-//    &:hover {
-//        .competenceCard__img {
-//            opacity: 1;
-//        }
-//    }
-//    @media ($phone) {
-//        width: 53rem;
-//        height: 38rem;
-//        padding-left: 10rem;
-//    }
-//    @media ($tablet) {
-//        width: 36.3rem;
-//        height: 54rem;
-//    }
-//    @media ($laptop) {
-//        width: 46rem;
-//        height: 46rem;
-//    }
-//    @media ($desktop) {
-//        width: 48rem;
-//        height: 41rem;
-//    }
-//    @media ($projector) {
-//        width: 55rem;
-//        height: 38rem;
-//    }
-//}

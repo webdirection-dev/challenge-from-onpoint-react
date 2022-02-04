@@ -1,3 +1,32 @@
+@font-face {
+    font-family: "CircleLight";
+    src: url('../fonts/Circe-Light.woff') format("woff");
+}
+
+@font-face {
+    font-family: "GilroyExtraBold";
+    src: url('../fonts/Gilroy-ExtraBold.woff') format("woff");
+}
+
+@font-face {
+    font-family: "GilroyLight";
+    src: url('../fonts/Gilroy-Light.woff') format("woff");
+}
+
+@font-face {
+    font-family: "DINPro";
+    src: url('../fonts/DINPro.woff') format("woff");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+// FONTS
+$mainFont: 'Roboto', sans-serif;
+$mainFontLight: 'GilroyLight', sans-serif;
+$contentFontBold: 'GilroyExtraBold', sans-serif;
+
+$contentFont: 'CircleLight', sans-serif;
+$btnFont: 'DINPro', sans-serif;
 
 // COLOR
 
@@ -36,7 +65,7 @@ $phoneVertical: 'min-width: 320px';
 $phone: 'min-width: 576px';
 $tablet: 'min-width: 768px';
 $laptop: 'min-width: 992px';
-$desktop: 'min-width: 1024px';
+$desktop: 'min-width: 1025px';
 $projector: 'min-width: 1440px';
 
 // breakpoints
