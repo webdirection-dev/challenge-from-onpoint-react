@@ -28,12 +28,15 @@
             font-family: $contentFontBold;
             letter-spacing: 0;
         }
+        &-position {
+            position: relative;
+        }
     }
     &__btn {
         @include btn();
         position: absolute;
         left: 530px;
-        top: 450px;
+        top: 20px;
         width: 287px;
         height: 80px;
         background-color: #ff6a9f;

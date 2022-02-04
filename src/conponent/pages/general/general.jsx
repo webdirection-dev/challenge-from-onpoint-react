@@ -15,17 +15,20 @@ const General = (props) => {
             onTouchMove={event => handleTouchMove(event)}
         >
             <div className="general__content">
-                <p><span className='general__content-hi'>привет,</span>это <span className='general__content-bold'>не</span> <br/>коммерческое<br/>задание </p>
-                <button
-                    className='general__btn'
-                    onClick={onRight}
-                >
+                <p><span className='general__content-hi'>привет,</span>это <span className='general__content-bold'>не</span> <br/>коммерческое<br/>
+                    <span className='general__content-position'>
+                        <button
+                            className='general__btn'
+                            onClick={onRight}
+                        >
                     <div className='general__btn-content'>
                         <img className='general__btn-img' src={arrow} alt="..."/>
                         <p>Что дальше?</p>
                         <i className="fas fa-long-arrow-alt-right"></i>
                     </div>
                 </button>
+                        задание</span> </p>
+
             </div>
         </div>
     )
