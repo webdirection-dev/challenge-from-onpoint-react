@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.css": "./static/css/main.5a28499c.css",
-    "main.js": "./static/js/main.15babae6.js",
+    "main.css": "./static/css/main.3feeac39.css",
+    "main.js": "./static/js/main.73f5937b.js",
+    "static/media/Circe-Light.woff": "./static/media/Circe-Light.0a23696bc00e1131f434.woff",
+    "static/media/1-3-bg.jpg": "./static/media/1-3-bg.50934c3df71093722afb.jpg",
+    "static/media/DINPro.woff": "./static/media/DINPro.637a0f5db07a169e1404.woff",
+    "static/media/Gilroy-Light.woff": "./static/media/Gilroy-Light.9df2f5dbbb9c90a6ede7.woff",
+    "static/media/Gilroy-ExtraBold.woff": "./static/media/Gilroy-ExtraBold.cb761043a2e505ff53c1.woff",
     "index.html": "./index.html",
-    "main.5a28499c.css.map": "./static/css/main.5a28499c.css.map",
-    "main.15babae6.js.map": "./static/js/main.15babae6.js.map"
+    "main.3feeac39.css.map": "./static/css/main.3feeac39.css.map",
+    "main.73f5937b.js.map": "./static/js/main.73f5937b.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a28499c.css",
-    "static/js/main.15babae6.js"
+    "static/css/main.3feeac39.css",
+    "static/js/main.73f5937b.js"
   ]
 }
