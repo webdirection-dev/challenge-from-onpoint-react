@@ -19,7 +19,9 @@
         font-weight: 300;
         text-transform: uppercase;
         letter-spacing: 3px;
-        &-hi {position: absolute;
+        &-hi {
+            position: absolute;
+            font-family: $mainSubTitleRegular;
             top: 170px;
             font-size: 28px;
             letter-spacing: 1px;

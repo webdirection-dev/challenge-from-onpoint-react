@@ -9,13 +9,13 @@ const General = (props) => {
     } = props
 
     return(
-        <div
+        <section
             className="general main__slide"
             onTouchStart={event => handleTouchStart(event)}
             onTouchMove={event => handleTouchMove(event)}
         >
             <div className="general__content">
-                <p><span className='general__content-hi'>привет,</span>это <span className='general__content-bold'>не</span> <br/>коммерческое<br/>
+                <h1><span className='general__content-hi'>привет,</span>это <span className='general__content-bold'>не</span> <br/>коммерческое<br/>
                     <span className='general__content-position'>
                         <button
                             className='general__btn'
@@ -27,10 +27,10 @@ const General = (props) => {
                         <i className="fas fa-long-arrow-alt-right"></i>
                     </div>
                 </button>
-                        задание</span> </p>
+                        задание</span> </h1>
 
             </div>
-        </div>
+        </section>
     )
 }
 

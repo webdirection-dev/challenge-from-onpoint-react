@@ -4,6 +4,11 @@
 }
 
 @font-face {
+    font-family: "Circle";
+    src: url('../fonts/circe-2.woff') format("woff");
+}
+
+@font-face {
     font-family: "GilroyExtraBold";
     src: url('../fonts/Gilroy-ExtraBold.woff') format("woff");
 }
@@ -17,15 +22,34 @@
     font-family: "DINPro";
     src: url('../fonts/DINPro.woff') format("woff");
 }
+@font-face {
+    font-family: "DINProBold";
+    src: url('../fonts/DINPro-Bold.woff') format("woff");
+}
+
+@font-face {
+    font-family: 'Myriad';
+    src: url('../fonts/MyriadPro-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'MyriadBold';
+    src: url('../fonts/MyriadPro-Bold.woff') format('woff');
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 // FONTS
 $mainFont: 'Roboto', sans-serif;
+$mainSubTitleRegular: 'DINPro', sans-serif;
+$DINProBold: 'DINProBold', sans-serif;
 $mainFontLight: 'GilroyLight', sans-serif;
 $contentFontBold: 'GilroyExtraBold', sans-serif;
+$mainScrollRegular: 'Myriad', sans-serif;
+$MyriadBold: 'MyriadBold', sans-serif;
 
 $contentFont: 'CircleLight', sans-serif;
+$contentFontCircle: 'Circle', sans-serif;
 $btnFont: 'DINPro', sans-serif;
 
 // COLOR
